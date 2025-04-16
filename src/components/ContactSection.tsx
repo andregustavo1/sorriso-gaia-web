@@ -19,8 +19,8 @@ const ContactSection = () => {
               <h3 className="text-2xl font-bold mb-6 text-primary">Informações de Contato</h3>
               
               <div className="space-y-6">
-                <a href="https://wa.me/5521989052672" target="_blank" rel="noopener noreferrer" className="flex items-center group">
-                  <div className="h-12 w-12 rounded-full bg-primary-light bg-opacity-10 flex items-center justify-center mr-4 group-hover:bg-primary-light group-hover:text-white transition-colors">
+                <a href="https://wa.me/5521989052672" target="_blank" rel="noopener noreferrer" className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left group">
+                  <div className="h-12 w-12 rounded-full bg-primary-light bg-opacity-10 flex items-center justify-center mb-3 sm:mb-0 sm:mr-4 group-hover:bg-primary-light group-hover:text-white transition-colors">
                     <Phone className="h-5 w-5 text-primary-light group-hover:text-white" />
                   </div>
                   <div>
@@ -29,8 +29,8 @@ const ContactSection = () => {
                   </div>
                 </a>
                 
-                <a href="mailto:drluiseduardogaiasoares@gmail.com" className="flex items-center group">
-                  <div className="h-12 w-12 rounded-full bg-primary-light bg-opacity-10 flex items-center justify-center mr-4 group-hover:bg-primary-light group-hover:text-white transition-colors">
+                <a href="mailto:drluiseduardogaiasoares@gmail.com" className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left group">
+                  <div className="h-12 w-12 rounded-full bg-primary-light bg-opacity-10 flex items-center justify-center mb-3 sm:mb-0 sm:mr-4 group-hover:bg-primary-light group-hover:text-white transition-colors">
                     <Mail className="h-5 w-5 text-primary-light group-hover:text-white" />
                   </div>
                   <div>
@@ -39,8 +39,8 @@ const ContactSection = () => {
                   </div>
                 </a>
                 
-                <a href="https://www.instagram.com/drluiseduardogaia" target="_blank" rel="noopener noreferrer" className="flex items-center group">
-                  <div className="h-12 w-12 rounded-full bg-primary-light bg-opacity-10 flex items-center justify-center mr-4 group-hover:bg-primary-light group-hover:text-white transition-colors">
+                <a href="https://www.instagram.com/drluiseduardogaia" target="_blank" rel="noopener noreferrer" className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left group">
+                  <div className="h-12 w-12 rounded-full bg-primary-light bg-opacity-10 flex items-center justify-center mb-3 sm:mb-0 sm:mr-4 group-hover:bg-primary-light group-hover:text-white transition-colors">
                     <Instagram className="h-5 w-5 text-primary-light group-hover:text-white" />
                   </div>
                   <div>
@@ -49,8 +49,8 @@ const ContactSection = () => {
                   </div>
                 </a>
                 
-                <a href="https://www.facebook.com/drluiseduardogaia" target="_blank" rel="noopener noreferrer" className="flex items-center group">
-                  <div className="h-12 w-12 rounded-full bg-primary-light bg-opacity-10 flex items-center justify-center mr-4 group-hover:bg-primary-light group-hover:text-white transition-colors">
+                <a href="https://www.facebook.com/drluiseduardogaia" target="_blank" rel="noopener noreferrer" className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left group">
+                  <div className="h-12 w-12 rounded-full bg-primary-light bg-opacity-10 flex items-center justify-center mb-3 sm:mb-0 sm:mr-4 group-hover:bg-primary-light group-hover:text-white transition-colors">
                     <Facebook className="h-5 w-5 text-primary-light group-hover:text-white" />
                   </div>
                   <div>
@@ -59,8 +59,8 @@ const ContactSection = () => {
                   </div>
                 </a>
                 
-                <div className="flex items-center">
-                  <div className="h-12 w-12 rounded-full bg-primary-light bg-opacity-10 flex items-center justify-center mr-4">
+                <div className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left">
+                  <div className="h-12 w-12 rounded-full bg-primary-light bg-opacity-10 flex items-center justify-center mb-3 sm:mb-0 sm:mr-4">
                     <MapPin className="h-5 w-5 text-primary-light" />
                   </div>
                   <div>
