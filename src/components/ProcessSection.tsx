@@ -19,6 +19,15 @@ const ProcessSection = () => {
           <div className="space-y-16 relative">
             <AnimatedElement animation="animate-fade-in" delay={100}>
               <div className="flex flex-col md:flex-row items-center">
+                {/* Mobile view: Icon on top */}
+                <div className="block md:hidden w-full mb-4">
+                  <div className="flex justify-center">
+                    <div className="h-16 w-16 rounded-full bg-primary-light flex items-center justify-center text-white">
+                      <CalendarCheck className="h-8 w-8" />
+                    </div>
+                  </div>
+                </div>
+                
                 <div className="md:w-1/2 mb-6 md:mb-0 md:pr-12 text-center md:text-right">
                   <h3 className="text-xl font-bold mb-2 font-montserrat">Agendamento</h3>
                   <p className="text-secondary-foreground">
@@ -26,23 +35,38 @@ const ProcessSection = () => {
                     horários flexíveis para sua comodidade.
                   </p>
                 </div>
-                <div className="relative flex items-center justify-center md:w-0">
+                
+                {/* Desktop view: Icon in middle */}
+                <div className="hidden md:flex relative items-center justify-center md:w-0">
                   <div className="h-16 w-16 rounded-full bg-primary-light flex items-center justify-center text-white z-10">
                     <CalendarCheck className="h-8 w-8" />
                   </div>
                 </div>
+                
                 <div className="md:w-1/2 md:pl-12"></div>
               </div>
             </AnimatedElement>
             
             <AnimatedElement animation="animate-fade-in" delay={200}>
               <div className="flex flex-col md:flex-row items-center">
+                {/* Mobile view: Icon on top */}
+                <div className="block md:hidden w-full mb-4">
+                  <div className="flex justify-center">
+                    <div className="h-16 w-16 rounded-full bg-primary-light flex items-center justify-center text-white">
+                      <FileSearch className="h-8 w-8" />
+                    </div>
+                  </div>
+                </div>
+                
                 <div className="md:w-1/2 mb-6 md:mb-0 md:pr-12"></div>
-                <div className="relative flex items-center justify-center md:w-0">
+                
+                {/* Desktop view: Icon in middle */}
+                <div className="hidden md:flex relative items-center justify-center md:w-0">
                   <div className="h-16 w-16 rounded-full bg-primary-light flex items-center justify-center text-white z-10">
                     <FileSearch className="h-8 w-8" />
                   </div>
                 </div>
+                
                 <div className="md:w-1/2 md:pl-12 text-center md:text-left">
                   <h3 className="text-xl font-bold mb-2 font-montserrat">Avaliação Inicial</h3>
                   <p className="text-secondary-foreground">
@@ -55,6 +79,15 @@ const ProcessSection = () => {
             
             <AnimatedElement animation="animate-fade-in" delay={300}>
               <div className="flex flex-col md:flex-row items-center">
+                {/* Mobile view: Icon on top */}
+                <div className="block md:hidden w-full mb-4">
+                  <div className="flex justify-center">
+                    <div className="h-16 w-16 rounded-full bg-primary-light flex items-center justify-center text-white">
+                      <FileText className="h-8 w-8" />
+                    </div>
+                  </div>
+                </div>
+                
                 <div className="md:w-1/2 mb-6 md:mb-0 md:pr-12 text-center md:text-right">
                   <h3 className="text-xl font-bold mb-2 font-montserrat">Planejamento</h3>
                   <p className="text-secondary-foreground">
@@ -62,23 +95,38 @@ const ProcessSection = () => {
                     com todas as informações para sua decisão.
                   </p>
                 </div>
-                <div className="relative flex items-center justify-center md:w-0">
+                
+                {/* Desktop view: Icon in middle */}
+                <div className="hidden md:flex relative items-center justify-center md:w-0">
                   <div className="h-16 w-16 rounded-full bg-primary-light flex items-center justify-center text-white z-10">
                     <FileText className="h-8 w-8" />
                   </div>
                 </div>
+                
                 <div className="md:w-1/2 md:pl-12"></div>
               </div>
             </AnimatedElement>
             
             <AnimatedElement animation="animate-fade-in" delay={400}>
               <div className="flex flex-col md:flex-row items-center">
+                {/* Mobile view: Icon on top */}
+                <div className="block md:hidden w-full mb-4">
+                  <div className="flex justify-center">
+                    <div className="h-16 w-16 rounded-full bg-primary-light flex items-center justify-center text-white">
+                      <FileCheck className="h-8 w-8" />
+                    </div>
+                  </div>
+                </div>
+                
                 <div className="md:w-1/2 mb-6 md:mb-0 md:pr-12"></div>
-                <div className="relative flex items-center justify-center md:w-0">
+                
+                {/* Desktop view: Icon in middle */}
+                <div className="hidden md:flex relative items-center justify-center md:w-0">
                   <div className="h-16 w-16 rounded-full bg-primary-light flex items-center justify-center text-white z-10">
                     <FileCheck className="h-8 w-8" />
                   </div>
                 </div>
+                
                 <div className="md:w-1/2 md:pl-12 text-center md:text-left">
                   <h3 className="text-xl font-bold mb-2 font-montserrat">Execução</h3>
                   <p className="text-secondary-foreground">
@@ -91,6 +139,15 @@ const ProcessSection = () => {
             
             <AnimatedElement animation="animate-fade-in" delay={500}>
               <div className="flex flex-col md:flex-row items-center">
+                {/* Mobile view: Icon on top */}
+                <div className="block md:hidden w-full mb-4">
+                  <div className="flex justify-center">
+                    <div className="h-16 w-16 rounded-full bg-primary-light flex items-center justify-center text-white">
+                      <Clock className="h-8 w-8" />
+                    </div>
+                  </div>
+                </div>
+                
                 <div className="md:w-1/2 mb-6 md:mb-0 md:pr-12 text-center md:text-right">
                   <h3 className="text-xl font-bold mb-2 font-montserrat">Acompanhamento</h3>
                   <p className="text-secondary-foreground">
@@ -98,11 +155,14 @@ const ProcessSection = () => {
                     manutenção da saúde bucal a longo prazo.
                   </p>
                 </div>
-                <div className="relative flex items-center justify-center md:w-0">
+                
+                {/* Desktop view: Icon in middle */}
+                <div className="hidden md:flex relative items-center justify-center md:w-0">
                   <div className="h-16 w-16 rounded-full bg-primary-light flex items-center justify-center text-white z-10">
                     <Clock className="h-8 w-8" />
                   </div>
                 </div>
+                
                 <div className="md:w-1/2 md:pl-12"></div>
               </div>
             </AnimatedElement>
