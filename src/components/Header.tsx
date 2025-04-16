@@ -14,8 +14,9 @@ const Header = () => {
       // Update active section based on scroll position
       const sections = document.querySelectorAll('section[id]');
       sections.forEach((section) => {
-        const sectionTop = section.offsetTop - 100;
-        const sectionHeight = section.offsetHeight;
+        const htmlSection = section as HTMLElement; // Type casting to HTMLElement
+        const sectionTop = htmlSection.offsetTop - 100;
+        const sectionHeight = htmlSection.offsetHeight;
         const id = section.getAttribute('id') || '';
         
         if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
