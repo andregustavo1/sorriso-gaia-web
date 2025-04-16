@@ -38,7 +38,7 @@ const ProcessSection = () => {
                 
                 {/* Desktop view: Icon in middle */}
                 <div className="hidden md:flex relative items-center justify-center md:w-0">
-                  <div className="h-16 w-16 rounded-full bg-primary-light flex items-center justify-center text-white z-10">
+                  <div className="h-16 min-w-16 rounded-full bg-primary-light flex items-center justify-center text-white z-10">
                     <CalendarCheck className="h-8 w-8" />
                   </div>
                 </div>
@@ -52,7 +52,7 @@ const ProcessSection = () => {
                 {/* Mobile view: Icon on top */}
                 <div className="block md:hidden w-full mb-4">
                   <div className="flex justify-center">
-                    <div className="h-16 w-16 rounded-full bg-primary-light flex items-center justify-center text-white">
+                    <div className="h-16 min-w-16 rounded-full bg-primary-light flex items-center justify-center text-white">
                       <FileSearch className="h-8 w-8" />
                     </div>
                   </div>
@@ -62,7 +62,7 @@ const ProcessSection = () => {
                 
                 {/* Desktop view: Icon in middle */}
                 <div className="hidden md:flex relative items-center justify-center md:w-0">
-                  <div className="h-16 w-16 rounded-full bg-primary-light flex items-center justify-center text-white z-10">
+                  <div className="h-16 min-w-16 rounded-full bg-primary-light flex items-center justify-center text-white z-10">
                     <FileSearch className="h-8 w-8" />
                   </div>
                 </div>
@@ -82,7 +82,7 @@ const ProcessSection = () => {
                 {/* Mobile view: Icon on top */}
                 <div className="block md:hidden w-full mb-4">
                   <div className="flex justify-center">
-                    <div className="h-16 w-16 rounded-full bg-primary-light flex items-center justify-center text-white">
+                    <div className="h-16 min-w-16 rounded-full bg-primary-light flex items-center justify-center text-white">
                       <FileText className="h-8 w-8" />
                     </div>
                   </div>
@@ -98,7 +98,7 @@ const ProcessSection = () => {
                 
                 {/* Desktop view: Icon in middle */}
                 <div className="hidden md:flex relative items-center justify-center md:w-0">
-                  <div className="h-16 w-16 rounded-full bg-primary-light flex items-center justify-center text-white z-10">
+                  <div className="h-16 min-w-16 rounded-full bg-primary-light flex items-center justify-center text-white z-10">
                     <FileText className="h-8 w-8" />
                   </div>
                 </div>
@@ -112,7 +112,7 @@ const ProcessSection = () => {
                 {/* Mobile view: Icon on top */}
                 <div className="block md:hidden w-full mb-4">
                   <div className="flex justify-center">
-                    <div className="h-16 w-16 rounded-full bg-primary-light flex items-center justify-center text-white">
+                    <div className="h-16 min-w-16 rounded-full bg-primary-light flex items-center justify-center text-white">
                       <FileCheck className="h-8 w-8" />
                     </div>
                   </div>
@@ -122,7 +122,7 @@ const ProcessSection = () => {
                 
                 {/* Desktop view: Icon in middle */}
                 <div className="hidden md:flex relative items-center justify-center md:w-0">
-                  <div className="h-16 w-16 rounded-full bg-primary-light flex items-center justify-center text-white z-10">
+                  <div className="h-16 min-w-16 rounded-full bg-primary-light flex items-center justify-center text-white z-10">
                     <FileCheck className="h-8 w-8" />
                   </div>
                 </div>
@@ -142,7 +142,7 @@ const ProcessSection = () => {
                 {/* Mobile view: Icon on top */}
                 <div className="block md:hidden w-full mb-4">
                   <div className="flex justify-center">
-                    <div className="h-16 w-16 rounded-full bg-primary-light flex items-center justify-center text-white">
+                    <div className="h-16 min-w-16 rounded-full bg-primary-light flex items-center justify-center text-white">
                       <Clock className="h-8 w-8" />
                     </div>
                   </div>
@@ -158,7 +158,7 @@ const ProcessSection = () => {
                 
                 {/* Desktop view: Icon in middle */}
                 <div className="hidden md:flex relative items-center justify-center md:w-0">
-                  <div className="h-16 w-16 rounded-full bg-primary-light flex items-center justify-center text-white z-10">
+                  <div className="h-16 min-w-16 rounded-full bg-primary-light flex items-center justify-center text-white z-10">
                     <Clock className="h-8 w-8" />
                   </div>
                 </div>

@@ -8,7 +8,7 @@ const StructureSection = () => {
   
   const slides = [
     {
-      image: "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?q=80&w=1770",
+      image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1868",
       title: "Recepção Acolhedora",
       description: "Nossa recepção foi projetada para proporcionar conforto e tranquilidade desde o primeiro momento."
     },
@@ -18,12 +18,12 @@ const StructureSection = () => {
       description: "Ambientes equipados com tecnologia de ponta para garantir o melhor atendimento."
     },
     {
-      image: "https://images.unsplash.com/photo-1583608247524-b0fea0f9150b?q=80&w=1770",
+      image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1868",
       title: "Equipamentos de Última Geração",
       description: "Investimos em tecnologia para oferecer diagnósticos precisos e tratamentos eficientes."
     },
     {
-      image: "https://images.unsplash.com/photo-1629909615468-b70c0994e318?q=80&w=1868",
+      image: "https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1868",
       title: "Sala de Esterilização",
       description: "Seguimos rigorosos protocolos de biossegurança para garantir sua proteção."
     }

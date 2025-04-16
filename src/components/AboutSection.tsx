@@ -7,15 +7,7 @@ const AboutSection = () => {
     <section id="sobre" className="section bg-white">
       <div className="container-section">
         <div className="flex flex-col lg:flex-row items-center lg:items-start gap-12">
-          <AnimatedElement animation="animate-slide-up" className="w-full lg:w-2/5">
-            <div className="rounded-lg overflow-hidden shadow-xl">
-              <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1780" 
-                alt="Dr. Luis Eduardo Gaia Soares" 
-                className="w-full h-auto object-cover"
-              />
-            </div>
-          </AnimatedElement>
+
           
           <div className="w-full lg:w-3/5">
             <AnimatedElement animation="animate-fade-in">

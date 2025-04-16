@@ -44,7 +44,7 @@ const HeroSection = () => {
         <AnimatedElement animation="animate-fade-in-right" delay={800} className="w-full lg:w-1/2">
           <div className="relative z-10 rounded-lg overflow-hidden shadow-2xl">
             <img 
-              src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?q=80&w=1780" 
+              src="/img/1.png" 
               alt="Consultório odontológico moderno" 
               className="w-full h-auto rounded-lg"
             />
